@@ -17,7 +17,7 @@ const Projects = () => {
             id: 1,
             title: "Video Submission Platform",
             description: "A comprehensive platform for video submissions with real-time processing, user authentication, and advanced video management features.",
-            tech: ["React", "Node.js", "MongoDB", "FFmpeg"],
+            tech: ["React", "Node.js", "MongoDB", "AWS S3"],
             link: "https://github.com/COSC-499-W2023/year-long-project-team-6.git",
             color: "blue"
         },
@@ -36,6 +36,14 @@ const Projects = () => {
             tech: ["Python", "Flask", "SQLite", "Chart.js"],
             link: "https://github.com/skywalker007-cpu/533-QuizzingPackage.git",
             color: "orange"
+        },
+        {
+            id: 4,
+            title: "Anime Popularity & Ratings Dashboard",
+            description: "An interactive dashboard that analyzes key factors affecting anime popularity and ratings, providing actionable insights for anime companies, studios, and investors to maximize profitability.",
+            tech: ["Python", "Jupyter", "Pandas", "Plotly"],
+            link: "https://github.com/haoxiang-xu/data-551-project.git",
+            color: "red"
         }
     ];
 
